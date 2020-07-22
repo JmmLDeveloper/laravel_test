@@ -1,0 +1,54 @@
+form
+{
+  width: 60%;
+  margin: 1.5rem auto;
+  padding: 1rem;
+
+}
+
+.field
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem 0;
+}
+
+.field input , .field textarea , .field label
+{
+  font-size: 1.2rem;
+}
+
+.field input , .field textarea
+{
+  padding: 0.2rem;
+}
+
+
+.field label
+{
+  margin-bottom: 0.3rem;
+}
+
+
+form button
+{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 0.2rem 0.6rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
+.error-msg
+{
+  color: tomato;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

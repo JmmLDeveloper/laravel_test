@@ -1,0 +1,67 @@
+:root
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+*
+{
+  margin: 0;
+  color: #111;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+ul
+{
+  list-style: none;
+}
+
+a
+{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+body
+{
+  background-color: #eee;
+}
+
+#header-bar
+{
+  color: white;
+}
+
+#header-bar nav ul li a
+{
+  color: white;
+}
+
+#header-bar nav ul li
+{
+  margin: 0 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+#header-bar nav ul
+{
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+
+#header-bar nav
+{
+  margin-right: 2.5rem;
+}
+
+#header-bar 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
